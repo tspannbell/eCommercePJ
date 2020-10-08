@@ -1,0 +1,125 @@
+.title{
+  color:white;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.bach{
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+.navlink {
+  text-align: center;
+  padding: 5px;
+  margin-left: 80px;
+  display: inline-flex;
+  justify-content: center;
+  font-family: Optima;
+  border-style: solid;
+}
+h1 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: "Monserrat", sans-serif;
+}
+a:hover {
+  color: #e8ded2;
+  text-align: center;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+/* SLide Show */
+.slide {width:60%; height:300px;padding-bottom:10%; overflow:hidden; position:relative;}
+.slide img{ position:absolute; animation:slide 20s infinite; opacity:100; width:100%; height: auto;}
+.slide{ margin-left:20%;
+}
+@keyframes slide {25%{opacity:1;} 40%{opacity:0;}}
+.slide img:nth-child(4){animation-delay:5s;}
+.slide img:nth-child(3){animation-delay:10s;}
+.slide img:nth-child(2){animation-delay:15s;}
+.slide img:nth-child(1){animation-delay:20s;}
+
+
+
+footer {
+  font-size: 20px;
+  font-family: Optima;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  position: relative;
+  align-items: center;
+}
+.social {
+  width: 25px;
+  height: 25px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  color: white;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: black;
+  
+}
+
+h2{
+  text-align: center;
+  border: solid;
+  flex:auto;
+  font-size: 25px; 
+  margin-left: 20%;
+  margin-right:20%;
+  margin-bottom:10%;
+  color:white;
+}
+
+
